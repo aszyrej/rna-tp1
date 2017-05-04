@@ -27,7 +27,7 @@ def splitData ():
 
 def ej1 ():
 	splitData()
-	weights = num.random.uniform(-0.1,0.1,NUM_ATTRS)
+	weights = num.random.uniform(-0.1,0.1,NUM_ATTRS + 1)
 
 	#NetworkBuilding
 		#https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
